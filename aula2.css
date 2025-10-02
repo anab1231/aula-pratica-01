@@ -7,7 +7,7 @@ background-color: #f7dce9;
 .header-boby{
 background-color: #f8cde4;
 justify-content: center;
-gap:300px;
+gap:30px;
 padding:20px;
 
 
@@ -152,11 +152,16 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 padding: 40px;
-transition: 0.8s;
 border:rgb(192, 166, 209);
 color: #ffffff;
 
 
+
+}
+.div-casal:hover{
+
+ box-shadow: 5px 5px 10px rgb(69, 7, 71);
+transition: 0.8S;
 
 }
 .img-casal{
@@ -182,11 +187,23 @@ color: #ffffff;
 
 
 
+
 }
 .img-aliança{
 
 width: 200px;
 height: 200px;
+
+
+
+
+}
+.div-aliancas :hover{
+
+Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+transition: 0.8S;
+
+
 
 
 
@@ -211,6 +228,16 @@ color: #ffffff;
 
 width: 200px;
 height: 200px;
+
+
+
+
+}
+.div-namoro :hover{
+
+Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+transition: 0.8S;
+
 
 
 

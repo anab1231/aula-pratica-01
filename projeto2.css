@@ -1,0 +1,58 @@
+
+body{
+
+background-color: rgb(255, 255, 255);
+
+
+
+
+}
+.painel01{
+
+background-color: rgb(228, 3, 3);
+padding: 20px;
+
+
+}
+.img-logotipo{
+
+background-color: rgb(224, 0, 0);
+text-align: center;
+align-items: center;
+
+}
+.painel02{
+background-image: url(imagem2/pexels-pavel-danilyuk-8294597.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+padding:300px;
+gap: 20px;
+background-attachment:fixed;
+background-position:center;
+background-size: cover;
+
+
+
+
+
+
+}
+.titulo{
+text-align: center;
+justify-content: center;
+align-items: center;
+
+
+}
+.form01{
+
+
+align-items:flex-start;
+justify-content: center;
+text-align: center;
+color: aliceblue;
+
+
+
+}
