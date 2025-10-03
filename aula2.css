@@ -5,7 +5,7 @@ background-color: #f7dce9;
 
 }
 .header-boby{
-background-color: #f8cde4;
+background-color: #fcdce5;
 justify-content: center;
 gap:30px;
 padding:20px;
@@ -40,9 +40,6 @@ list-style: none;
 
 
 }
-
-
-
 .section-painel{
 
 background-image: url(imagem/pexels-buselliyy-34018644.jpg);
@@ -105,15 +102,21 @@ background-position: center;
 text-align: justify;
 align-items:center;
 font-size: 30px;
-color: rgb(255, 26, 26);
+color: rgb(5, 4, 4);
 display: flex;
 justify-content: center;
 gap: 20px;
+transition: 0.8s;
 
 
 
 
 }
+
+
+
+
+
 .section-titulo{
 
 text-align: center;
@@ -265,6 +268,14 @@ height: 200px;
 
 
 }
+.div-noivado :hover{
+Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+transition: 0.8S;
+
+
+
+
+}
 .div-casamento{
 background-repeat: no-repeat;
 /* deixa ela cetralizada  */
@@ -274,6 +285,15 @@ padding: 40px;
 transition: 0.8s;
 border:rgb(140, 0, 233);
 color: #ffffff;
+
+
+
+
+}
+.div-casamento :hover{
+
+Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+transition: 0.8S;
 
 
 
@@ -294,7 +314,7 @@ height: 200px;
 
 background-color: #ffffff;
 padding: 70px;
-color: #6e0909;
+color: #0c0909;
 text-align: center;
 justify-content: center;
 align-items: center;
@@ -346,14 +366,14 @@ h4{
 text-align: center;
 align-items: center;
 justify-content: center;
-color: #6d1111;
+color: #130d0d;
 
 }
 .footer{
 
     background-color: #ffffff; /*cor de fundo*/
        padding: 50px; /*preenchimento interno*/
-       color: rgb(136, 21, 21);/*cor das letras*/
+       color: rgb(3, 3, 3);/*cor das letras*/
        /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
        display: flex; /*utilizando para fazer alinhamento*/
        align-items: center; /*alinhamento vertical*/

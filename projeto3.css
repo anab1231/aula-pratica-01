@@ -1,0 +1,202 @@
+
+body{
+background-color: #fcdce5;
+
+}
+.painel{
+background-color: #fcdce5;
+justify-content: center;
+gap:30px;
+padding:20px;
+
+
+
+}
+ul{
+text-align: end;
+align-items: center;
+display: flex;
+justify-content:center;
+font-weight:bolder;
+
+
+}
+.ol{
+
+    display: flex;
+    gap: 50px;
+
+
+    
+    
+
+    
+}
+.li ul li{
+
+list-style: none;
+}
+
+
+
+.img-painel{
+width: 180px;
+height: 180px;
+
+
+}
+.section-painel{
+
+background-image: url(imagem2/Joias\ cheias\ de\ amor.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+padding:290px;
+gap: 20px;
+background-attachment:fixed;
+background-position:center;
+background-size: cover;
+color: rgb(23, 22, 24);
+width: 1000px;
+
+
+
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 10px;
+  color: white;
+  text-shadow: 2px 2px rgb(116, 116, 116);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 2px black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: hsl(281, 73%, 78%);
+  background-image: url(imagem2/avatar_person_character_fashion_clothes_jacket_sweater_beautiful_long_hairstyle_blue_hair_hoodie_orange_girls_lady_female_woman_icon_262230.ico);
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  width: 150px;
+  height: 90px;
+  background-repeat: no-repeat;
+
+}
+
+button:active {
+  transform: scale(0.9);
+  transition:0.8S;
+}
+
+button svg {
+   transition:0.8S;
+}
+
+.play {
+  transition: all 0.5s ease;
+  transition-delay: 300ms;
+}
+
+button:hover svg {
+  transform: scale(3) translate(50%);
+}
+
+.now {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+button:hover .now {
+  transform: translateX(10px);
+  transition-delay: 300ms;
+}
+
+button:hover .play {
+  transform: translateX(200%);
+  transition-delay: 300ms;
+}
+.img-painel02{
+width: 500px;
+height: 500px;
+
+
+
+
+
+
+}
+.section-05{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+
+}
+.section-06{
+/* aqui estamos estilizando a section-06 */
+background-color: rgb(232, 183, 241);
+/* cor de fundo da section */
+padding:15px;
+/* preenchimento interno da section  */
+/* alinha as div */
+width: 1900px;
+display: flex;  
+/* tornando a section flex /lado a lado */
+gap: 15px;
+/* espacamento entre as caixas  */
+align-items: center;
+/* alinhamento horizontal */
+
+justify-content:center ;
+/* alinhamento vertical  */
+}
+/* aqui estamos estilizando as 3 caixas (div) */
+
+.div-section-06{
+
+background-repeat: no-repeat;
+/* deixa ela cetralizada  */
+background-size: cover;
+background-position: center;
+padding: 50px;
+transition: 0.8s;
+
+color: #ffffff;
+gap: 15px;
+
+
+
+
+
+
+
+}
+.img-div{
+width: 200px;
+height: 200px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
