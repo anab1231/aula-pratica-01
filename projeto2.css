@@ -35,11 +35,12 @@ list-style: none;
 }
 .painel01{
 
-background-color: #fcdce5;
-justify-content: center;
-gap:30px;
-padding:20px;
-
+ background-color: #fcdce5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 
 
 }

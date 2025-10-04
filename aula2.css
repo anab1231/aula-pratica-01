@@ -1,307 +1,330 @@
-body{
-background-color: #f7dce9;
+body {
+    background-color: #f7dce9;
 
 
 
 }
-.header-boby{
-background-color: #fcdce5;
-justify-content: center;
-gap:30px;
-padding:20px;
+
+.header-boby {
+    background-color: #fcdce5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 
 
 
 
 }
-ul{
-text-align: end;
-align-items: center;
-display: flex;
-justify-content:center;
-font-weight:bolder;
+
+OL {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    gap: 12PX;
 
 
 }
-.ol{
 
+ol li {
+    list-style: none;
+}
+
+ol li a {
+
+text-decoration: none;
+
+
+}
+
+.li ul li {
+
+    list-style: none;
+
+
+}
+
+.section-painel {
+
+    background-image: url(imagem/pexels-buselliyy-34018644.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 300px;
+    gap: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+button {
+
+    transition: 0.8s;
+
+
+
+}
+
+.section-painel button {
+
+    background-color: rgb(187, 146, 236);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(28, 28, 100)
+}
+
+.section-painel button :hover {
+
+    transition: 0.8s;
+    box-shadow: #d1a3bc;
+
+
+
+
+}
+
+
+
+
+.section-conteudo {
+
+
+    align-items: center;
+    background-position: center;
+    background-position: center;
+
+
+}
+
+.section-conteudo {
+
+    text-align: justify;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(5, 4, 4);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.8s;
+
+
+
+
+}
+
+
+
+
+
+.section-titulo {
+
+    text-align: center;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.section-03 {
+
+    background-color: #e4a0d5;
+    padding: 100px;
     display: flex;
     gap: 50px;
-
-
-    
-    
-
-    
-}
-.li ul li{
-
-list-style: none;
-
-
-}
-.section-painel{
-
-background-image: url(imagem/pexels-buselliyy-34018644.jpg);
-display: flex;
-align-items: center;
-justify-content: center;
-padding:300px;
-gap: 20px;
-background-attachment:fixed;
-background-position:center;
-background-size: cover;
-
-
-
-}
-button{
-
-transition: 0.8s;
-
-
-
-}
-.section-painel button{
-
-background-color: rgb(187, 146, 236);
-color: rgb(0, 0, 0);
-width: 200px;
-padding: 10px;
-border: none;
-box-shadow:5px 5px 10px rgb(28, 28, 100)
-
-
-
-
-}
-.section-painel button :hover{
-
-transition: 0.8s;
-box-shadow: #d1a3bc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 
 
 
 }
 
+.div-section-03 {
 
-
-
-.section-conteudo {
-
-
-align-items: center;
-background-position: center;
-background-position: center;
-
+    width: 400px;
+    height: 350px;
+    background-color: #b476a5;
+    padding: 10px;
+    text-align: center;
 
 }
-.section-conteudo {
 
-text-align: justify;
-align-items:center;
-font-size: 30px;
-color: rgb(5, 4, 4);
-display: flex;
-justify-content: center;
-gap: 20px;
-transition: 0.8s;
+.div-casal {
 
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
 
 
 
 }
 
+.div-casal:hover {
 
-
-
-
-.section-titulo{
-
-text-align: center;
-padding: 20px;
-gap: 15px;
+    box-shadow: 5px 5px 10px rgb(69, 7, 71);
+    transition: 0.8S;
 
 }
-.section-03{
 
-background-color: #e4a0d5;
-padding: 100px;
-display: flex;
-gap: 50px;
-align-items: center;
-justify-content: center;
-text-align: center;
+.img-casal {
+
+    width: 200px;
+    height: 200px;
 
 
 
 
 }
 
-.div-section-03{
+.div-aliancas {
 
-width: 400px;
-height: 350px;
-background-color: #b476a5;
-padding: 10px;
-text-align: center;
-
-}
-.div-casal{
-
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 40px;
-border:rgb(192, 166, 209);
-color: #ffffff;
-
-
-
-}
-.div-casal:hover{
-
- box-shadow: 5px 5px 10px rgb(69, 7, 71);
-transition: 0.8S;
-
-}
-.img-casal{
-
-width: 200px;
-height: 200px;
-
-
-
-
-}
-.div-aliancas{
-
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 40px;
-transition: 0.8s;
-border:rgb(192, 166, 209);
-color: #ffffff;
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
 
 
 
 
 
 }
-.img-aliança{
 
-width: 200px;
-height: 200px;
+.img-aliança {
 
-
-
-
-}
-.div-aliancas :hover{
-
-Box-shadow: 5px 5px 10px rgb(111, 26, 114);
-transition: 0.8S;
-
+    width: 200px;
+    height: 200px;
 
 
 
 
 }
-.div-namoro{
 
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 40px;
-transition: 0.8s;
-border:rgb(192, 166, 209);
-color: #ffffff;
+.div-aliancas :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
 
 
 
 
 
 }
-.img-namoro{
 
-width: 200px;
-height: 200px;
+.div-namoro {
 
-
-
-
-}
-.div-namoro :hover{
-
-Box-shadow: 5px 5px 10px rgb(111, 26, 114);
-transition: 0.8S;
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
 
 
 
 
 
 }
-.div-noivado{
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 40px;
-transition: 0.8s;
-border:rgb(192, 166, 209);
-color: #ffffff;
+
+.img-namoro {
+
+    width: 200px;
+    height: 200px;
 
 
 
 
 }
-.img-noivado{
 
-width: 200px;
-height: 200px;
+.div-namoro :hover {
 
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
 
-
-}
-.div-noivado :hover{
-Box-shadow: 5px 5px 10px rgb(111, 26, 114);
-transition: 0.8S;
 
 
 
 
 }
-.div-casamento{
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 40px;
-transition: 0.8s;
-border:rgb(140, 0, 233);
-color: #ffffff;
+
+.div-noivado {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
 
 
 
 
 }
-.div-casamento :hover{
 
-Box-shadow: 5px 5px 10px rgb(111, 26, 114);
-transition: 0.8S;
+.img-noivado {
+
+    width: 200px;
+    height: 200px;
+
+
+
+}
+
+.div-noivado :hover {
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
 
 
 
 
 }
-.img-casamento{
-width: 200px;
-height: 200px;
+
+.div-casamento {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(140, 0, 233);
+    color: #ffffff;
+
+
+
+
+}
+
+.div-casamento :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+}
+
+.img-casamento {
+    width: 200px;
+    height: 200px;
 
 
 
@@ -310,84 +333,92 @@ height: 200px;
 
 
 
-.section-04{
+.section-04 {
 
-background-color: #ffffff;
-padding: 70px;
-color: #0c0909;
-text-align: center;
-justify-content: center;
-align-items: center;
-
-
-
-}
-.button-02{
-
-background-color: rgb(187, 146, 236);
-color: rgb(0, 0, 0);
-width: 200px;
-padding: 20px;
-border: none;
-transition: 0.8s;
-box-shadow:5px 5px 10px rgb(100, 28, 100)
-
-
-
+    background-color: #96252515;
+    padding: 70px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 
 
 }
-.button-02 :hover{
 
-transition: 0.8s;
+.button-02 {
+
+    background-color: rgb(187, 146, 236);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    padding: 20px;
+    border: none;
+    transition: 0.8s;
+    box-shadow: 5px 5px 10px rgb(100, 28, 100)
+}
+
+.button-02 :hover {
+
+    transition: 0.8s;
 
 
 
 
 }
-.section-painel2{
-background-image: url(imagem/foto-de-presente-de-natal-rosa-vista-frontal-pequeno-natal-feriado-de-ano-novo\ \(1\).jpg);
-display: flex;
-align-items: center;
-justify-content: center;
-padding:250px;
-gap: 30px;
-background-attachment:fixed;
-background-position:center;
-background-size: cover;
 
-
-
-
-}
-h4{
-
-text-align: center;
-align-items: center;
-justify-content: center;
-color: #130d0d;
-
-}
-.footer{
-
-    background-color: #ffffff; /*cor de fundo*/
-       padding: 50px; /*preenchimento interno*/
-       color: rgb(3, 3, 3);/*cor das letras*/
-       /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
-       display: flex; /*utilizando para fazer alinhamento*/
-       align-items: center; /*alinhamento vertical*/
-       justify-content: center; /*alinhamento horizontal*/
-       text-align: center; /*alinhamento dos textos*/
-       font-size: 25px;/*aumentando o tamanho dos textos*/
+.section-painel2 {
+    background-image: url(imagem/foto-de-presente-de-natal-rosa-vista-frontal-pequeno-natal-feriado-de-ano-novo\ \(1\).jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+    gap: 30px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 
 
 
 
 
 }
+
+h4 {
+
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+   background-color: rgba(128, 128, 128, 0.24);
+   padding: 15px;
+}
+
+.footer {
+
+    background-color: #ffffff;
+    /*cor de fundo*/
+    padding: 50px;
+    /*preenchimento interno*/
+    color: rgb(3, 3, 3);
+    /*cor das letras*/
+    /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
+    display: flex;
+    /*utilizando para fazer alinhamento*/
+    align-items: center;
+    /*alinhamento vertical*/
+    justify-content: center;
+    /*alinhamento horizontal*/
+    text-align: center;
+    /*alinhamento dos textos*/
+    font-size: 25px;
+    /*aumentando o tamanho dos textos*/
+
+
+
+
+
+}
+
 footer i {
     font-size: 40px;
     color: rgb(165, 16, 16);
 }
-   

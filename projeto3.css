@@ -4,38 +4,45 @@ background-color: #fcdce5;
 
 }
 .painel{
-background-color: #fcdce5;
-justify-content: center;
-gap:30px;
-padding:20px;
-
-
-
-}
-ul{
-text-align: end;
-align-items: center;
-display: flex;
-justify-content:center;
-font-weight:bolder;
-
-
-}
-.ol{
-
+ background-color: #fcdce5;
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
 
 
-    
-    
 
-    
 }
-.li ul li{
+OL {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    gap: 12PX;
 
-list-style: none;
+
 }
+
+ol li {
+    list-style: none;
+}
+
+ol li a {
+
+text-decoration: none;
+
+
+}
+
+.li ul li {
+
+    list-style: none;
+
+
+}
+
 
 
 
@@ -47,7 +54,7 @@ height: 180px;
 }
 .section-painel{
 
-background-image: url(imagem2/Joias\ cheias\ de\ amor.jpg);
+background-image: url(imagem2/Pedido\ de\ namoro\ _\ aliança\ vivara\ _\ namorados.jpg);
 display: flex;
 align-items: center;
 justify-content: center;
@@ -57,7 +64,7 @@ background-attachment:fixed;
 background-position:center;
 background-size: cover;
 color: rgb(23, 22, 24);
-width: 1000px;
+
 
 
 
@@ -76,8 +83,8 @@ button {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 17px;
-  background-color: hsl(281, 73%, 78%);
-  background-image: url(imagem2/avatar_person_character_fashion_clothes_jacket_sweater_beautiful_long_hairstyle_blue_hair_hoodie_orange_girls_lady_female_woman_icon_262230.ico);
+  background-color: hsl(303, 64%, 79%);
+  background-image: url(imagem2/shoppingcart_accept_compra_12832.ico);
   border-radius: 50px;
   position: relative;
   overflow: hidden;
@@ -143,56 +150,500 @@ align-items: center;
 
 
 
+}
+.section-03 {
+
+    background-color: #ffe2ff00;
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
 
 }
-.section-06{
-/* aqui estamos estilizando a section-06 */
-background-color: rgb(232, 183, 241);
-/* cor de fundo da section */
-padding:15px;
-/* preenchimento interno da section  */
-/* alinha as div */
-width: 1900px;
-display: flex;  
-/* tornando a section flex /lado a lado */
-gap: 15px;
-/* espacamento entre as caixas  */
+
+.div-section-03 {
+
+    width: 400px;
+    height: 350px;
+    background-color: #b476a500;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.div-casal {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+}
+
+.div-casal:hover {
+
+    box-shadow: 5px 5px 10px rgb(69, 7, 71);
+    transition: 0.8S;
+
+}
+
+.img-casal {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-aliancas {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+
+
+}
+
+.img-aliança {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-aliancas :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+
+}
+
+.div-namoro {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+
+
+}
+
+.img-namoro {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-namoro :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+
+}
+
+.div-noivado {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+
+}
+
+.img-noivado {
+
+    width: 300px;
+    height: 300px;
+
+
+
+}
+
+.div-noivado :hover {
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+}
+
+.div-casamento {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(140, 0, 233);
+    color: #ffffff;
+
+
+
+
+}
+
+.div-casamento :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+}
+
+.img-casamento {
+    width: 300px;
+    height: 300px;
+
+
+
+}
+
+h2{
+  background-color: #dd42dd4f;
+text-align: center;
+display: flex;
+justify-content: center;
 align-items: center;
-/* alinhamento horizontal */
-
-justify-content:center ;
-/* alinhamento vertical  */
-}
-/* aqui estamos estilizando as 3 caixas (div) */
-
-.div-section-06{
-
-background-repeat: no-repeat;
-/* deixa ela cetralizada  */
-background-size: cover;
-background-position: center;
-padding: 50px;
-transition: 0.8s;
-
-color: #ffffff;
-gap: 15px;
-
-
-
+padding: 15px;
 
 
 
 
 }
-.img-div{
-width: 200px;
-height: 200px;
+h4{
+text-align: center;
+    font-size: 35px;
+    color: #000000;
+    background-color: rgba(229, 60, 235, 0.322);
+    padding: 15px;
+
+
+
+}
+h1{
+text-align: center;
+    font-size: 35px;
+    color: #000000;
+    background-color: rgba(250, 1, 1, 0.021);
+    padding: 15px;
+
+
+
+
+}
+.section-04 {
+
+    background-color: #ffe2ff00;
+    padding: 200px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+.div-section-04 {
+
+    width: 400px;
+    height: 350px;
+    background-color: #b476a500;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.div-casal {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+}
+
+.div-casal:hover {
+
+    box-shadow: 5px 5px 10px rgb(69, 7, 71);
+    transition: 0.8S;
+
+}
+
+.img-casal {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-aliancas {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
 
 
 
 
 
 }
+
+.img-aliança {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-aliancas :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+
+}
+
+.div-namoro {
+
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+
+
+}
+
+.img-namoro {
+
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.div-namoro :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+
+}
+
+.div-noivado {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(192, 166, 209);
+    color: #ffffff;
+
+
+
+
+}
+
+.img-noivado {
+
+    width: 300px;
+    height: 300px;
+
+
+
+}
+
+.div-noivado :hover {
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+}
+
+.div-casamento {
+    background-repeat: no-repeat;
+    /* deixa ela cetralizada  */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    transition: 0.8s;
+    border: rgb(140, 0, 233);
+    color: #ffffff;
+
+
+
+
+}
+
+.div-casamento :hover {
+
+    Box-shadow: 5px 5px 10px rgb(111, 26, 114);
+    transition: 0.8S;
+
+
+
+
+}
+
+.img-casamento {
+    width: 300px;
+    height: 300px;
+}
+.img-vitoria{
+
+width: 600px;
+height: 600px;
+
+
+
+}
+.section-07 p{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+
+
+.footer {
+
+    background-color: #ffffff;
+    /*cor de fundo*/
+    padding: 50px;
+    /*preenchimento interno*/
+    color: rgb(3, 3, 3);
+    /*cor das letras*/
+    /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
+    display: flex;
+    /*utilizando para fazer alinhamento*/
+    align-items: center;
+    /*alinhamento vertical*/
+    justify-content: center;
+    /*alinhamento horizontal*/
+    text-align: center;
+    /*alinhamento dos textos*/
+    font-size: 25px;
+    /*aumentando o tamanho dos textos*/
+
+
+
+
+
+}
+
+footer i {
+    font-size: 40px;
+    color: rgb(165, 16, 16);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
