@@ -267,9 +267,9 @@ align-items: center;
 
 .img-namoro {
 
-    width: 300px;
-    height: 300px;
-border-radius: 50%; /* Cria um círculo perfeito */
+     width: 300px;
+     height: 300px;
+     border-radius: 50%; /* Cria um círculo perfeito */
       object-fit: cover; /* Garante que a imagem não seja distorcida */
 
 
@@ -305,9 +305,9 @@ border-radius: 50%; /* Cria um círculo perfeito */
 
 .img-noivado {
 
-    width: 300px;
-    height: 300px;
-border-radius: 50%; /* Cria um círculo perfeito */
+     width: 300px;
+     height: 300px;
+     border-radius: 50%; /* Cria um círculo perfeito */
       object-fit: cover; /* Garante que a imagem não seja distorcida */
 
 
@@ -360,11 +360,9 @@ border-radius: 50%; /* Cria um círculo perfeito */
 
 h2{
  text-align: center;
-    font-size: 35px;
-    color: #000000;
-    background-color: rgba(250, 1, 1, 0.021);
-    padding: 15px;
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
 
 }
 
@@ -600,14 +598,19 @@ justify-content: center;
 text-align: justify;
 width: 600px;
 height: 600px;
+}
+.section-07{
+text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 25px;
+ padding: 20px;
 
 
 
 
-
-
-
-
+}
 
 
 
@@ -640,11 +643,7 @@ height: 600px;
 
 footer i {
     font-size: 40px;
-<<<<<<< HEAD
     color: rgb(26, 26, 26);
-=======
-    color: rgb(3, 3, 3);
->>>>>>> e5b6d70d98c1e4b68a22bf7b81217983f210075f
 }
 
 
