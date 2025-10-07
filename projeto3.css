@@ -359,16 +359,13 @@ border-radius: 50%; /* Cria um círculo perfeito */
 }
 
 h2{
-<<<<<<< HEAD
- 
-=======
-background-color: #dd42dd4f;
->>>>>>> e5b6d70d98c1e4b68a22bf7b81217983f210075f
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 15px;
+ text-align: center;
+    font-size: 35px;
+    color: #000000;
+    background-color: rgba(250, 1, 1, 0.021);
+    padding: 15px;
+
+
 }
 
 h4{
@@ -606,24 +603,13 @@ height: 600px;
 
 
 
-}
-<<<<<<< HEAD
-.section-07 {
-=======
-.section-07{
->>>>>>> e5b6d70d98c1e4b68a22bf7b81217983f210075f
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
-padding: 200px;
 
 
 
 
 
-}
+
+
 
 
 .footer {
